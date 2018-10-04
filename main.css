@@ -1,0 +1,11 @@
+body {
+    color: #342809;
+    background-color: #cc3300;
+}
+
+#title {
+            background: #ffff66;
+            border: 2px double;
+            padding: 6px;
+            text-align: center;
+        }
