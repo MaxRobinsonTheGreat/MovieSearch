@@ -7,17 +7,33 @@
     </head>
     
     <body>
-        <h1 id="title">Movies!</h1>
+        
+        <h1 id="title">Movie Finder!</h1>
+        <div style="text-align:right;">
+        <img src="https://openclipart.org/download/179948/PopcornClip.svg" alt="popcorn" style="width:128px;height:128px;">
+        </div>
         <div id = "movie-section">
             <form>
-                Enter a movie: <input type="text" id="movie-field" value=""><br>
+                Enter the name of a movie: <input type="text" id="movie-field" value=""><br>
+                <div>
                 <input id="submitButton" type="submit" value="Submit">
+                </div>
                 <span id="movie-list"></span>
             </form>
-            <button type="button" id="sorter"> Click to see highest rated</button>
+            <button type="button" id="sorter"> Click to calculate highest rated</button>
+            <button type="button" id="reveal"> Click to see highest rated</button>
+            <br>
+            <br>
+            <span id="movie-chosen"></span>
+            <br>
+            <span id="movie-rated"></span>
+            <br>
+            <span id="movie-posted"></span>
         </div>
         <img src= "https://openclipart.org/download/271360/Vintage-Movie-Camera-Icon.svg" alt="video" style="width:128px;height:128px;">
-        <img src="https://openclipart.org/download/179948/PopcornClip.svg" alt="popcorn" style="width:128px;height:128px;">
-        <img src="https://openclipart.org/download/19837/Anomaly-Klaps.svg" alt="movie" style="width:118px;height:118px;">
+        
+        <div style="text-align:center;">
+        <img src="https://openclipart.org/download/19837/Anomaly-Klaps.svg" alt="movie" style="width:128px;height:128px; class= "right">
+        </div>
     </body>
 </html>
