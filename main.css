@@ -4,6 +4,7 @@ body {
 }
 
 #title {
+            color:  #000000;
             background: #ffff66;
             border: 2px double;
             padding: 6px;
